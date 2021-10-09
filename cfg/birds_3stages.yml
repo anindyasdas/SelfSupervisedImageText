@@ -1,0 +1,37 @@
+CONFIG_NAME: '3stages'
+
+DATASET_NAME: 'birds'
+EMBEDDING_TYPE: 'cnn-rnn'
+DATA_DIR: '../data/birds'
+GPU_ID: '0'
+WORKERS: 4
+
+
+TREE:
+    BRANCH_NUM: 3
+
+
+TRAIN:
+    FLAG: True
+    NET_G: '' #'netG_6.pth'  # 
+    NET_D: '' #'netD'  # 
+    BATCH_SIZE: 24
+    MAX_EPOCH: 1000 #600
+    SNAPSHOT_INTERVAL: 2000
+    DISCRIMINATOR_LR: 0.0002
+    GENERATOR_LR: 0.0002
+    COEFF:
+      UNCOND_LOSS: 1.0
+      COLOR_LOSS: 40.0
+
+
+GAN:
+    EMBEDDING_DIM: 100 #128
+    DF_DIM: 64
+    GF_DIM: 64
+    Z_DIM: 100
+    R_NUM: 2
+    B_CONDITION: True
+
+TEXT:
+    DIMENSION: 1024
