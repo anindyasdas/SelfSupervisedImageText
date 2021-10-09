@@ -1,6 +1,6 @@
 # Self-supervised Image-to-text and Text-to-image Synthesis
 
-This is the official implementation of Self-supervised Image-to-text and Text-to-image Synthesis. The architecture of ![image atutoencoder](./imageae.png) and ![end-to-end network](./endtoend2.png) are shown.
+This is the official implementation of Self-supervised Image-to-text and Text-to-image Synthesis. The architecture of ![image atutoencoder](./images/imageae.png) and ![end-to-end network](./images/endtoend2.png) are shown.
 
 # Dataset
 We use [Caltech-UCSD Birds-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) and [Oxford-102](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) datasets in this work.
