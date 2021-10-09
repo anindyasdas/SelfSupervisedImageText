@@ -3,7 +3,7 @@
 This is the official implementation of Self-supervised Image-to-text and Text-to-image Synthesis.
 
 # Dataset
-We use Caltech-UCSD Birds-200-2011 and Oxford-102 datasets in this work.
+We use [Caltech-UCSD Birds-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) and [Oxford-102](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) datasets in this work.
 - Download [Flower images](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/102flowers.tgz)
 - Rename the jpg folder to images and unzip 102flowers.zip and put it inside 102flowers folder
 - put 102flowers folder inside data folder
