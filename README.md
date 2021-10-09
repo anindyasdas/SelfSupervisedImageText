@@ -1,4 +1,4 @@
-# Self-supervised Image-to-text and Text-to-image Synthesis
+# Self-supervised Image-to-text and Text-to-image Synthesis(./imageae.png)
 
 This is the official implementation of Self-supervised Image-to-text and Text-to-image Synthesis.
 
