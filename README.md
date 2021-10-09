@@ -20,11 +20,11 @@ We use Caltech-UCSD Birds-200-2011 and Oxford-102 datasets in this work.
 The driver program for training the image autoencoder is main.py
 ### To train the image autoencoder on flower dataset
 ```
-python main1.py --cfg cfg/flowers_3stages.yml --gpu 0
+python main.py --cfg cfg/flowers_3stages.yml --gpu 0
 ```
 ### To train the image autoencoder birds dataset
 ```
-python main1.py --cfg cfg/birds_3stages.yml --gpu 0
+python main.py --cfg cfg/birds_3stages.yml --gpu 0
 ```
 Models will automatically saved after a fixed number of iteration, to restart from a failed step edit netG_version in respective .yml file
 ## Training the text autoencoder
